@@ -1,10 +1,9 @@
 Please note, that these commands are for Linux environment. 
 
-To run this project you'll need to create a virtual environment (venv):
+To run this project the way it was developed, you'll need to create a virtual environment (venv) in the api-folder:
 
 python3 -m venv venv
 source venv/bin/activate
-
 
 Then you'll need to install Flask and python-dotenv:
 
@@ -20,6 +19,6 @@ To start the frontend, open the terminal and type the following command:
 
 yarn start
 
-To start the backend, open the second terminal and type the following command:
+To start the backend, open the second terminal and type the following command (or just flask run):
 
 yarn start-api
